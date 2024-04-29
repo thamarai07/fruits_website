@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between  max-w-6xl m-auto ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center  max-w-6xl m-auto ${inter.className}`}
     >
 
       <div className="w-full bg-slate-200 p-10 rounded-md"> 
@@ -22,10 +22,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex ">
+      <div className="flex gap-14">
         {/* filter Container */}
-        <div>
-
+        <div className="w-[30%]">
+          <p className="p-4"></p>
+        </div>
+        {/* card container */}
+        <div  className="w-[70%]">
+            <p  className="p-4"></p>
         </div>
       </div>
 
